@@ -1,0 +1,90 @@
+#container {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.totalContact {
+  margin: 10px;
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+input {
+  width: 95%;
+  height: 25px;
+  margin: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid rgba(0, 9, 13, 0.5411764706);
+  border-radius: 5px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: antiquewhite;
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  height: 25px;
+  /* border: 1px solid rgba(0, 9, 13, 0.5411764706); */
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+.btn > button {
+  padding: 0px;
+  width: 100%;
+}
+.id {
+  display: none;
+}
+.close {
+  position: absolute;
+  display: flex;
+  top: 1px;
+  right: -22px;
+  padding: 5px;
+  cursor: pointer;
+  width: 15px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+/* img {
+  width: 25px;
+  height: 25px;
+} */
